@@ -1,7 +1,8 @@
 package com.company.service;
 
 import com.company.entity.PartidoEntity;
-import com.company.repository.entity.PartidoRepo;
+import com.company.repository.PartidoRepo;
+
 
 import java.util.List;
 

@@ -4,6 +4,34 @@ import java.util.List;
 
 public class EquipoEntity {
 
+    private List<JugadorEntity> jugadores;
+    private CategoriaEnum categoria;
+    private NumeroDeJugadoresEnum numeroJugadores;
+
+    public List<JugadorEntity> getJugadores() {
+        return jugadores;
+    }
+
+    public void setJugadores(List<JugadorEntity> jugadores) {
+        this.jugadores = jugadores;
+    }
+
+    public CategoriaEnum getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(CategoriaEnum categoria) {
+        this.categoria = categoria;
+    }
+
+    public NumeroDeJugadoresEnum getNumeroJugadores() {
+        return numeroJugadores;
+    }
+
+    public void setNumeroJugadores(NumeroDeJugadoresEnum numeroJugadores) {
+        this.numeroJugadores = numeroJugadores;
+    }
+
     public enum CategoriaEnum {
         FEMEMINO("Femenino"),
 
@@ -45,9 +73,6 @@ public class EquipoEntity {
                 this.value = value;
             }
         }
-
-
-
 
     }
 
